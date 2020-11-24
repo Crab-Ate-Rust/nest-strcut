@@ -1,9 +1,14 @@
 [package]
-name = "nest-struct"
-version = "0.1.0"
 authors = ["tiannian <dtiannian@aliyun.com>"]
 edition = "2018"
+name = "nest-struct"
+version = "0.1.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+quote = "0.3.15"
+syn = "0.11.11"
+
+[lib]
+proc-macro = true
